@@ -9,3 +9,7 @@ Boilerplate project using react and webpack together.
 `cd react-webpack-boilerplate`
 
 `npm install`
+
+`npm start`
+
+Open **localhost:8080/**
