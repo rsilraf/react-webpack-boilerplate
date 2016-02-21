@@ -11,6 +11,8 @@ module.exports =
         loaders: [
             test: /\.json$/, loader: 'json'
         ,
+            test: /(\.coffee|\.cson)$/, loader: 'coffee-loader'
+        ,
             test: /\.jsx?$/, loader: 'babel', exclude: /node_modules/
         ,
         # test: /\.css$/, loader: 'style!css?modules!postcss'
